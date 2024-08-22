@@ -149,7 +149,39 @@
       </section>
 
       <!-- main section-2 -->
-       <section></section>
+       <section class="lg:mx-36 md:mx-8 mx-4  border lg:py-16 md:py-8 py-4 mb-5">
+        <div class="grid lg:grid-cols-2 md:grid-cols-1 gap-6">
+          <!-- text-title -->
+          <div>
+            <div class="lg:text-left md:text-center text-center mx-auto space-y-6">
+              <div class="badge bg-white p-4 font-semibold"><i class="fa-solid fa-arrow-right mr-2"></i>About Us</div>
+              <h1 class="lg:text-5xl md:text-4xl text-3xl font-extrabold">We design thoughtful, liveable spaces</h1>
+              <p class="md:text-lg">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
+            <!-- box title -->
+            <div class="lg:space-y-8 md:space-y-0 space-y-2 lg:flex-col md:gap-3 md:flex  md:mt-8 mt-4">
+              <div class="flex rounded-xl items-center gap-6 md:p-5 p-3 border bg-white">
+                <img src="assets/commercial.png" alt="">
+                <div>
+                   <h4 class="text-xl font-bold">Commercial</h4>
+                <p>The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                </div>
+              </div>
+              <div class="flex rounded-xl items-center gap-6 md:p-5 p-3 border bg-white">
+                <img src="assets/residential.png" alt="">
+                <div>
+                   <h4 class="text-xl font-bold">Residential</h4>
+                <p>The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- image-title -->
+          <div class="lg:mr-6">
+            <img class="md:w-full" src="assets/Rectangle.png" alt="">
+          </div>
+        </div>
+       </section>
  
       <!-- main section-3 -->
       <section class="lg:mx-36 md:mx-8 mx-4 md:mb-16 mb-8 border">
@@ -347,16 +379,14 @@
 
           <div class="space-y-4 mx-auto">
             <div class="md:flex gap-4 md:space-y-0 space-y-3">
-              <input class="lg:w-1/2 md:w-1/2  w-full py-4 rounded-full pl-5" type="text" name="" id="" placeholder="First Name">
-            <input class="lg:w-1/2 md:w-1/2 w-full py-4 rounded-full pl-5" type="text" name="" id="" placeholder="Last Name">
+              <input class="lg:w-1/2 md:w-1/2  w-full py-4 rounded-full pl-5" type="text" name="" id="" placeholder="First Name" required>
+            <input class="lg:w-1/2 md:w-1/2 w-full py-4 rounded-full pl-5" type="text" name="" id="" placeholder="Last Name" required>
           </div>
             <div class="md:flex gap-4 md:space-y-0 space-y-3">
-            <input class="lg:w-1/2 md:w-1/2  w-full py-4 rounded-full pl-5" type="number" name="" id="" placeholder="Phone Number">
-            <input class="lg:w-1/2  md:w-1/2 w-full py-4 rounded-full pl-5" type="email" name="" id="" placeholder=" Email Number">
+            <input class="lg:w-1/2 md:w-1/2  w-full py-4 rounded-full pl-5" type="number" name="" id="" placeholder="Phone Number" required>
+            <input class="lg:w-1/2  md:w-1/2 w-full py-4 rounded-full pl-5" type="email" name="" id="" placeholder=" Email Number" required>
            </div>
-            <textarea class="lg:w-full w-full md:h-64 h-36 rounded-xl py-5 px-4"  name="" id="" placeholder="Write your message here">
-
-            </textarea>
+            <textarea class="lg:w-full w-full md:h-64 h-36 rounded-xl py-3 px-4 md:py-5 md:px-4"  name="" id="" placeholder="Write your message here" required></textarea>
           </div>
           <a class="btn color-misti w-full text-xl mt-5 rounded-full font-bold py-2">Send Mail <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 rounded-full inline p-1 bg-black text-white">
             <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
